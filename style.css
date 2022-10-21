@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Background {
+    background: url("images/pic.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 140vh;
+
+}
+
+.HeaderNavigation {
+    border: 1px solid black;
+    background-color: #1dce4f;
+    font-size: 18px;
+    width: 100vw;
+    
+}
+
+.List li {
+    display: inline;
+    padding: 30px;
+}
+
+.List li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.List li :hover {
+    background-color: #89e4a2;
+
+}
+
+.Heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+    color: darkgreen;
+    position: relative;
+    top: 20px;
+}
+
+.FooterNavigation {
+    font-size: 18px;
+}
+
+.paragraph
+{
+    margin: auto;
+    text-align: left;
+    width: 545px;
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.container
+{
+    position: relative;
+    top: -100px;
+    left: 150px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    
+}
+.box
+{
+    border: 1px solid limegreen;
+    
+}
+
+#box1
+{
+    
+    background-color: rgb(66, 206, 66);
+    color: white;
+    
+}
+
+#box2
+{
+    background-color: lightgreen;
+    
+}
+
+#box3
+{
+    background-color: lightgreen;
+    
+}
+
+#box4
+{
+    background-color: lightgreen;
+    
+}
+.container :hover
+{
+    background-color: rgb(233, 222, 222);
+}
